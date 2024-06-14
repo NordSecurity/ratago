@@ -1,8 +1,9 @@
 package xslt
 
 import (
-	"github.com/jbowtie/gokogiri/xml"
 	"sort"
+
+	"github.com/NordSecurity/gokogiri/xml"
 )
 
 func (i *XsltInstruction) Sort(nodes []xml.Node, context *ExecutionContext) {

@@ -2,11 +2,12 @@ package xslt
 
 import (
 	"container/list"
-	"github.com/jbowtie/gokogiri/xml"
-	"github.com/jbowtie/gokogiri/xpath"
 	"strconv"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/NordSecurity/gokogiri/xml"
+	"github.com/NordSecurity/gokogiri/xpath"
 )
 
 type StepOperation int

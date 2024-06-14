@@ -3,12 +3,13 @@ package xslt
 import (
 	"container/list"
 	"fmt"
-	"github.com/jbowtie/gokogiri/xml"
-	"github.com/jbowtie/gokogiri/xpath"
 	"log"
 	"path"
 	"strconv"
 	"strings"
+
+	"github.com/NordSecurity/gokogiri/xml"
+	"github.com/NordSecurity/gokogiri/xpath"
 )
 
 const XSLT_NAMESPACE = "http://www.w3.org/1999/XSL/Transform"

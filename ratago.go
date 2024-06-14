@@ -4,9 +4,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jbowtie/gokogiri/xml"
-	"github.com/jbowtie/ratago/xslt"
 	"os"
+
+	"github.com/NordSecurity/gokogiri/xml"
+	"github.com/NordSecurity/ratago/xslt"
 )
 
 func usage() {
